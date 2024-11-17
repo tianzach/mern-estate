@@ -5,6 +5,7 @@ import storage from 'redux-persist/lib/storage'
 
 const rootReducer = combineReducers({user: userReducer})
 
+// No change after refresh
 const persistConfig = {
   key: 'root',
   storage,
